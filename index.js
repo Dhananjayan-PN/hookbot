@@ -167,3 +167,4 @@ app.use((req, res) => {
 
 const port = process.env["PORT"] || 11337
 app.listen(port);
+console.log(`Listening on port ${port}`)
